@@ -7,6 +7,12 @@
 colspan{
     color:bisque;
 }
+body{
+    font-family: 'Antic', sans-serif;
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Outfit', sans-serif;
+}
 section{
     background-color:lightcyan;
 }

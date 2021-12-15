@@ -13,6 +13,10 @@ body{
     font-family: 'Merriweather', serif;
     font-family: 'Outfit', sans-serif;
 }
+a{
+    text-decoration: none;
+    color:purple;
+}
 .features li::before{
     content:  '✓';
 }

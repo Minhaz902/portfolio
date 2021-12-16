@@ -13,9 +13,11 @@ body{
     font-family: 'Merriweather', serif;
     font-family: 'Outfit', sans-serif;
 }
-a{
+section{
+    background-color:lightcyan;
+}
+a[href]{
     text-decoration: none;
-    color:purple;
 }
 .features li::before{
     content:  '✓';

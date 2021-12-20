@@ -10,6 +10,7 @@ colspan{
 @media only screen and (max-width: 600px) {
     table{
         width:100%;
+        height:100%;
     }
    }
 body{
@@ -27,19 +28,24 @@ a[href]{
 .features li::before{
     content:  '✓';
 }
-.links{
-    width: 100%;
-    height: 50px;
+#links{
+    height: 84px;
     background-color:black;
 }
-ul{
+.table{
+    display: table;
+    margin:0 auto;
+}
+ul#horizontal-list{
+    min-width: 696px;
     list-style: none;
+    padding-top: 20px;
+}
+ul#horizontal-list li{
+    display: inline;
 }
 li a{
     color: white;
-    text-decoration: none;
-    padding: 20px 10px 0px;
-    float: left;
 }
 li a:hover{
     color:blue;

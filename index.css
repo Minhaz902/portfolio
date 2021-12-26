@@ -8,6 +8,9 @@ body{
 #topnav{
     overflow: hidden;
 }
+a{
+    text-decoration: none;
+}
 #topnav a{
     float: left;
     text-decoration: none;
@@ -23,13 +26,22 @@ u{
     border: 1px solid;
     box-shadow: 5px 5px gray;
 }
+li colspan{
+    text-decoration: line-through;
+}
 input:focus{
     outline-style:groove;
     outline-color:lightskyblue;
     outline-width: 3px;
 }
 button{
-    padding: 5px;
+    text-align: center;
+    margin-left: 10%;
+    border-radius: 20%;
+    outline-style:ridge;
+}
+button:hover{
+    background-color:darkcyan;
 }
 .navbar{
     display: table;

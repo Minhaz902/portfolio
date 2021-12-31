@@ -34,11 +34,19 @@ input:focus{
     outline-color:lightskyblue;
     outline-width: 3px;
 }
+.about{
+    color:darkslateblue;
+}
 button{
     text-align: center;
-    margin-left: 10%;
-    border-radius: 20%;
-    outline-style:ridge;
+    background-color:silver;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 14px;
+    border-radius: 30px;
+    transition: .4s;
 }
 button:hover{
     background-color:darkcyan;
@@ -46,6 +54,9 @@ button:hover{
 .navbar{
     display: table;
     margin:0 auto;
+}
+.content h1{
+    color:brown
 }
 ul.navbar li{
     display: inline;
